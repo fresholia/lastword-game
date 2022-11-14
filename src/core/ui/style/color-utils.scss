@@ -1,0 +1,20 @@
+@import './theme';
+@import './colors';
+
+@each $name, $color in $theme-map {
+  .has-#{$name}-color {
+    color: var(--#{$name});
+  }
+}
+
+@each $name, $color in $colors-map {
+  .has-#{$name}-color {
+    color: var(--#{$name});
+  }
+}
+
+:root {
+  @each $name, $color in $colors-map {
+    --#{$name}: #{$color};
+  }
+}

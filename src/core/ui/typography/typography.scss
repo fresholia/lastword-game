@@ -1,0 +1,45 @@
+@import './typography-mixins';
+
+.typography--h1 {
+  @include typography--h1;
+}
+
+.typography--h2 {
+  @include typography--h2;
+}
+
+.typography--h3 {
+  @include typography--h3;
+}
+
+.typography--h4 {
+  @include typography--h4;
+}
+
+.typography--h5 {
+  @include typography--h5;
+}
+
+.typography--h6 {
+  @include typography--h6;
+}
+
+.typography--body {
+  @include typography--body;
+}
+
+.typography--small {
+  @include typography--small;
+}
+
+.typography--caption {
+  @include typography--caption;
+}
+
+.typography--bold {
+  @include is-bold-text;
+}
+
+.is-centered-text {
+  text-align: center;
+}

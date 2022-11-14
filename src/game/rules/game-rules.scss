@@ -1,0 +1,13 @@
+.game-rules {
+  max-width: 25rem;
+  text-align: center;
+}
+
+.game-rules__list {
+  gap: 1rem;
+  margin-top: 1rem;
+
+  li {
+    text-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.5);
+  }
+}

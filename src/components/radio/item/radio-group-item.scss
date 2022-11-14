@@ -1,0 +1,39 @@
+.radio-group-item__label {
+  gap: 0.75rem;
+
+  color: var(--secondary-text);
+  cursor: pointer;
+
+  &:hover span {
+    color: var(--main-text);
+  }
+}
+
+.radio-group-item--is-disabled {
+  cursor: not-allowed;
+
+  &:hover span {
+    color: var(--secondary-text);
+  }
+}
+
+.radio-group-item__input {
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  border: 0.063rem solid var(--secondary-text);
+  margin: 0;
+  appearance: none;
+  background-color: transparent;
+  border-radius: 50%;
+
+  &:disabled {
+    border-color: var(--tertiary-text);
+    opacity: 0.5;
+  }
+
+  &:checked {
+    border: 0.313rem solid var(--grape);
+    background: #fff;
+  }
+}

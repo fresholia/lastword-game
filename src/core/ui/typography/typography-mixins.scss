@@ -1,0 +1,66 @@
+@mixin typography--h1 {
+  font-family: Inter, sans-serif;
+  font-size: 4rem;
+  font-weight: 500;
+  line-height: 4.8rem;
+}
+
+@mixin typography--h2 {
+  font-family: Inter, sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 3.6rem;
+}
+
+@mixin typography--h3 {
+  font-family: Inter, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+@mixin typography--h4 {
+  font-family: Inter, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+@mixin typography--h5 {
+  font-family: Inter, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+@mixin typography--h6 {
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.2rem;
+}
+
+@mixin typography--body {
+  font-family: Inter, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+
+@mixin typography--small {
+  font-family: Inter, sans-serif;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.05rem;
+}
+
+@mixin typography--caption {
+  font-family: Inter, sans-serif;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 0.9rem;
+}
+
+@mixin is-bold-text {
+  font-weight: 600;
+}

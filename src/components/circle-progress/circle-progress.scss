@@ -1,0 +1,26 @@
+.circle-progress {
+  position: relative;
+}
+
+.circle-progress__svg {
+  position: relative;
+}
+
+.circle-progress__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-progress__svg-circle-bg {
+  stroke: var(--card-background);
+}
+
+.circle-progress__svg-circle-line {
+  stroke: var(--grape);
+}
+
+.circle-progress__svg-circle-line--danger {
+  stroke: var(--peach);
+}

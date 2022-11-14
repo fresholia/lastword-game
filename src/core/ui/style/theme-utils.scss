@@ -1,0 +1,7 @@
+@import './theme';
+
+:root {
+  @each $name, $color in $theme-map {
+    --#{$name}: #{$color};
+  }
+}

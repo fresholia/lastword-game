@@ -1,0 +1,30 @@
+.game-history {
+  max-height: 20rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.game-history__list {
+  margin-top: 1rem;
+}
+
+.game-history__list-item {
+  min-width: 25rem;
+
+  padding: 1rem 2rem;
+  background: var(--card-background);
+
+  &:first-of-type {
+    border-top-left-radius: 0.75rem;
+    border-top-right-radius: 0.75rem;
+  }
+
+  &:last-of-type {
+    border-bottom-left-radius: 0.75rem;
+    border-bottom-right-radius: 0.75rem;
+  }
+
+  &:nth-of-type(2n + 1) {
+    background: var(--section-background);
+  }
+}
